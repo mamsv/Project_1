@@ -4,9 +4,9 @@ function first(callback){
     //do something
     setTimeout(function(){
        console.log(1);
-       callback();
+       callback(); 
     },5000);
-    
+  
 }
 
 function second(){
