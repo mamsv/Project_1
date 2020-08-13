@@ -8,7 +8,7 @@ hello();
 
 function hi(){
  console.log("Say hi");   
- debugger;
+ //debugger;
 }
 
 hi();
