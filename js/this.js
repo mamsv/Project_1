@@ -15,10 +15,9 @@
 //     a: 20,
 //     b: 15,
 //     sum: function() {
-//         function shout(){
+        
 //             console.log(this);
-//         }
-//         shout();
+       
 //     }
 // };
 // obj.sum();
@@ -32,17 +31,17 @@
 
 //  let ivan = new User('Ivan', 23);
  
-// function sayName(surname){
-//     console.log(this);
-//     console.log(this.name + surname);
-// }
+function sayName(surname){
+    console.log(this);
+    console.log(this.name + surname);
+}
 
-// const user ={
-//     name: 'John'
-// };
+const user ={
+    name: 'John'
+};
 
-// sayName.call(user, 'Smith');
-// sayName.apply(user, ['Smith']);
+sayName.call(user, 'Smith');
+sayName.apply(user, ['Smith']);
 
 
 // function count(num){
